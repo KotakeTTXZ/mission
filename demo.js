@@ -19,4 +19,5 @@ fs.writeFileSync("./"+dirName+"/css/style.css","hi{color: red;}");
 fs.writeFileSync("./"+dirName+"/js/main.js",'var string = "Hello World"\nalert(string)');
 
 console.log("create "+dirName+" success!");
+  
 }
