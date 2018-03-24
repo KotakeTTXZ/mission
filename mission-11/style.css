@@ -1,0 +1,155 @@
+.clearfix::after{
+  clear: both;
+  content: '';
+  display: block;
+}
+body{
+  background-color: #efefef;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+/*logo*/
+.topNavBar .logo{
+  float: left;
+  font-size: 22px;
+  padding-top: 1px;
+  font-family: "MicroSoft YaHei";
+}
+.topNavBar .logo .rs{
+  margin-right: 4px;
+  color:  #e6686a;
+}
+.topNavBar .logo .card{
+  color: #9A9DA2;
+}
+/* nav导航 */
+.topNavBar{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+.topNavBar-inner{
+ padding: 20px 16px ;
+}
+.topNavBar nav{
+
+  padding-top: 7px;
+  float: right;
+}
+.topNavBar nav>ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.topNavBar nav>ul>li{
+  float: left;
+  margin-right: 17px;
+  margin-left: 17px;
+}
+.topNavBar nav>ul>li>a{
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
+  display: block;
+  border-top: 8px solid transparent;
+  border-bottom: 3px solid transparent;
+
+  padding-bottom: 5px;
+}
+.topNavBar nav ul li a:hover{
+  border-bottom-color: #DC6465;
+}
+/*banner图片*/
+.banner {
+  background-image: url(/img/rs-cover.jpg);
+  background-size:cover;
+  background-position:center center;
+  height: 515px;
+}
+.mask{
+  background-color: rgba(0,0,0,0.8);
+  height: 100%;
+}
+
+/*个人简介*/
+main .card {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+.pictureAndText{
+  padding: 50px;
+}
+.pictureAndText .text{
+  float: left;
+  margin-left: 65px;
+}
+.pictureAndText .picture{
+  float:left;
+}
+.pictureAndText .text .welcome{
+  background-color: #e6686a;
+  padding: 4px 16px;
+  color:white;
+  position: relative;
+}
+.pictureAndText .text .welcome .triagle{
+   position: absolute;
+  border-color: #e6686a;
+  border-width:  15px 15px 0px 0px;
+  border-right-color: transparent;
+  border-style: solid;
+  width: 0px;
+  display: block;
+  top: 28px;
+  left:10px;
+}
+.pictureAndText .text h1{
+  margin-top: 20px;
+}
+.pictureAndText hr{
+  border: 1px sold red;
+  width: 450px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.pictureAndText dl dt,.pictureAndText dl dd{
+  float: left;
+  margin: 10px 0px;
+}
+.pictureAndText dl dt{
+  width: 30%;
+  font-weight: bold;
+}
+.pictureAndText dl dd{
+  width: 70%;
+  color: gray;
+}
+
+.card .media {
+  background-color: pink;
+  text-align: center;
+}
+.card svg{
+  fill:white;
+  width: 40px;
+  height: 40px;
+  vertical-align:top;
+}
+.card .media a{
+  margin: 25px 20px;
+  display:inline-block;
+  border-radius: 50%;
+}
+.card .media a:hover{
+   background-color: #e6686a;
+}
